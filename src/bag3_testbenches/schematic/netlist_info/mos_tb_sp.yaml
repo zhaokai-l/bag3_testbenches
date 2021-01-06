@@ -1,0 +1,1130 @@
+lib_name: bag3_testbenches
+cell_name: mos_tb_sp
+view_name: schematic
+bbox:
+  - -337
+  - -350
+  - 714
+  - 130
+terminals:
+  {}
+shapes:
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: gnd!
+      points:
+        -
+          - -220
+          - -200
+        -
+          - -220
+          - -180
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vgac
+      points:
+        -
+          - -220
+          - -100
+        -
+          - -180
+          - -100
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vg
+      points:
+        -
+          - -120
+          - -100
+        -
+          - -100
+          - -100
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vg
+      points:
+        -
+          - -100
+          - -120
+        -
+          - -100
+          - -100
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vgdc
+      points:
+        -
+          - -100
+          - -220
+        -
+          - -100
+          - -180
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vsdc
+      points:
+        -
+          - -100
+          - -300
+        -
+          - -100
+          - -280
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vgac
+      origin:
+        - -200
+        - -93
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vgac
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vg
+      origin:
+        - -100
+        - -93
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vg
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vgdc
+      origin:
+        - -107
+        - -200
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vgdc
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vsdc
+      origin:
+        - -107
+        - -290
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vsdc
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vdac
+      points:
+        -
+          - 0
+          - -100
+        -
+          - 40
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vdac
+      origin:
+        - 20
+        - -93
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vdac
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vd
+      points:
+        -
+          - 100
+          - -100
+        -
+          - 120
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vd
+      origin:
+        - 120
+        - -93
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vd
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vd
+      points:
+        -
+          - 120
+          - -120
+        -
+          - 120
+          - -100
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vddc
+      points:
+        -
+          - 120
+          - -220
+        -
+          - 120
+          - -180
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vddc
+      origin:
+        - 113
+        - -200
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vddc
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vsdc
+      points:
+        -
+          - 120
+          - -300
+        -
+          - 120
+          - -280
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vsdc
+      origin:
+        - 113
+        - -290
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vsdc
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: gnd!
+      points:
+        -
+          - 0
+          - -200
+        -
+          - 0
+          - -180
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vsac
+      points:
+        -
+          - 220
+          - -100
+        -
+          - 260
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vsac
+      origin:
+        - 240
+        - -93
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vsac
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 320
+          - -100
+        -
+          - 340
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - 340
+        - -93
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 340
+          - -120
+        -
+          - 340
+          - -100
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vsdc
+      points:
+        -
+          - 340
+          - -220
+        -
+          - 340
+          - -180
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vsdc
+      origin:
+        - 333
+        - -200
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vsdc
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vb
+      points:
+        -
+          - 340
+          - -300
+        -
+          - 340
+          - -280
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vb
+      origin:
+        - 333
+        - -290
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vb
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: gnd!
+      points:
+        -
+          - 220
+          - -200
+        -
+          - 220
+          - -180
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: gnd!
+      points:
+        -
+          - 500
+          - -300
+        -
+          - 500
+          - -280
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vb
+      points:
+        -
+          - 500
+          - -220
+        -
+          - 500
+          - -180
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vb
+      origin:
+        - 493
+        - -200
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vb
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - -120
+          - -30
+        -
+          - -120
+          - 10
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - -127
+        - 6
+      alignment: 8
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vd
+      points:
+        -
+          - -120
+          - 90
+        -
+          - -120
+          - 130
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vd
+      origin:
+        - -127
+        - 94
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vd
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vb
+      points:
+        -
+          - -100
+          - 50
+        -
+          - -60
+          - 50
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vb
+      origin:
+        - -96
+        - 57
+      alignment: 2
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vb
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vg
+      points:
+        -
+          - -220
+          - 50
+        -
+          - -180
+          - 50
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vg
+      origin:
+        - -184
+        - 57
+      alignment: 8
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vg
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 620
+          - -350
+        -
+          - 620
+          - -330
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - 613
+        - -340
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 620
+          - -200
+        -
+          - 620
+          - -180
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - 613
+        - -190
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: ibias
+      points:
+        -
+          - 620
+          - -120
+        -
+          - 620
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: ibias
+      origin:
+        - 613
+        - -110
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: ibias
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: ibias
+      points:
+        -
+          - 620
+          - -270
+        -
+          - 620
+          - -250
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: ibias
+      origin:
+        - 613
+        - -260
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: ibias
+instances:
+  CD:
+    lib_name: analogLib
+    cell_name: dcblock
+    view_name: symbol
+    xform:
+      - 40
+      - -100
+      - R0
+    bbox:
+      - -85
+      - -123
+      - 228
+      - -6
+    connections:
+      MINUS: vd
+      PLUS: vdac
+    params:
+      {}
+    is_primitive: true
+  CG:
+    lib_name: analogLib
+    cell_name: dcblock
+    view_name: symbol
+    xform:
+      - -180
+      - -100
+      - R0
+    bbox:
+      - -305
+      - -123
+      - 8
+      - -6
+    connections:
+      MINUS: vg
+      PLUS: vgac
+    params:
+      {}
+    is_primitive: true
+  CS:
+    lib_name: analogLib
+    cell_name: dcblock
+    view_name: symbol
+    xform:
+      - 260
+      - -100
+      - R0
+    bbox:
+      - 135
+      - -123
+      - 448
+      - -6
+    connections:
+      MINUS: vs
+      PLUS: vsac
+    params:
+      {}
+    is_primitive: true
+  I0:
+    lib_name: analogLib
+    cell_name: gnd
+    view_name: symbol
+    xform:
+      - -220
+      - -200
+      - R0
+    bbox:
+      - -230
+      - -240
+      - -146
+      - -196
+    connections:
+      gnd!: gnd!
+    params:
+      {}
+    is_primitive: true
+  I1:
+    lib_name: analogLib
+    cell_name: gnd
+    view_name: symbol
+    xform:
+      - 0
+      - -200
+      - R0
+    bbox:
+      - -10
+      - -240
+      - 74
+      - -196
+    connections:
+      gnd!: gnd!
+    params:
+      {}
+    is_primitive: true
+  I2:
+    lib_name: analogLib
+    cell_name: gnd
+    view_name: symbol
+    xform:
+      - 220
+      - -200
+      - R0
+    bbox:
+      - 210
+      - -240
+      - 294
+      - -196
+    connections:
+      gnd!: gnd!
+    params:
+      {}
+    is_primitive: true
+  I3:
+    lib_name: analogLib
+    cell_name: gnd
+    view_name: symbol
+    xform:
+      - 500
+      - -300
+      - R0
+    bbox:
+      - 490
+      - -340
+      - 574
+      - -296
+    connections:
+      gnd!: gnd!
+    params:
+      {}
+    is_primitive: true
+  IBIAS:
+    lib_name: analogLib
+    cell_name: idc
+    view_name: symbol
+    xform:
+      - 620
+      - -270
+      - R0
+    bbox:
+      - 503
+      - -334
+      - 714
+      - -266
+    connections:
+      MINUS: vs
+      PLUS: ibias
+    params:
+      idc:
+        - 3
+        - ibias
+    is_primitive: true
+  LD:
+    lib_name: analogLib
+    cell_name: dcfeed
+    view_name: symbol
+    xform:
+      - 120
+      - -120
+      - R270
+    bbox:
+      - 106
+      - -305
+      - 213
+      - -4
+    connections:
+      MINUS: vddc
+      PLUS: vd
+    params:
+      {}
+    is_primitive: true
+  LG:
+    lib_name: analogLib
+    cell_name: dcfeed
+    view_name: symbol
+    xform:
+      - -100
+      - -120
+      - R270
+    bbox:
+      - -114
+      - -305
+      - -7
+      - -4
+    connections:
+      MINUS: vgdc
+      PLUS: vg
+    params:
+      {}
+    is_primitive: true
+  LS:
+    lib_name: analogLib
+    cell_name: dcfeed
+    view_name: symbol
+    xform:
+      - 340
+      - -120
+      - R270
+    bbox:
+      - 326
+      - -305
+      - 433
+      - -4
+    connections:
+      MINUS: vsdc
+      PLUS: vs
+    params:
+      {}
+    is_primitive: true
+  PORTD:
+    lib_name: analogLib
+    cell_name: port
+    view_name: symbol
+    xform:
+      - 0
+      - -100
+      - R0
+    bbox:
+      - -117
+      - -187
+      - 94
+      - -95
+    connections:
+      MINUS: gnd!
+      PLUS: vdac
+    params:
+      filenums:
+        - 3
+        - none
+      pm:
+        - 3
+        - Normal
+      vdc:
+        - 3
+        - 0
+    is_primitive: true
+  PORTG:
+    lib_name: analogLib
+    cell_name: port
+    view_name: symbol
+    xform:
+      - -220
+      - -100
+      - R0
+    bbox:
+      - -337
+      - -187
+      - -126
+      - -95
+    connections:
+      MINUS: gnd!
+      PLUS: vgac
+    params:
+      filenums:
+        - 3
+        - none
+      pm:
+        - 3
+        - Normal
+      vdc:
+        - 3
+        - 0
+    is_primitive: true
+  PORTS:
+    lib_name: analogLib
+    cell_name: port
+    view_name: symbol
+    xform:
+      - 220
+      - -100
+      - R0
+    bbox:
+      - 103
+      - -187
+      - 314
+      - -95
+    connections:
+      MINUS: gnd!
+      PLUS: vsac
+    params:
+      filenums:
+        - 3
+        - none
+      pm:
+        - 3
+        - Normal
+      vdc:
+        - 3
+        - 0
+    is_primitive: true
+  VB:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - 500
+      - -220
+      - R0
+    bbox:
+      - 378
+      - -284
+      - 594
+      - -216
+    connections:
+      MINUS: gnd!
+      PLUS: vb
+    params:
+      vdc:
+        - 3
+        - vb_dc
+    is_primitive: true
+  VBIAS:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - 620
+      - -120
+      - R0
+    bbox:
+      - 498
+      - -184
+      - 714
+      - -116
+    connections:
+      MINUS: vs
+      PLUS: ibias
+    params:
+      vdc:
+        - 3
+        - 1
+    is_primitive: true
+  VD:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - 120
+      - -220
+      - R0
+    bbox:
+      - -2
+      - -284
+      - 214
+      - -216
+    connections:
+      MINUS: vsdc
+      PLUS: vddc
+    params:
+      vdc:
+        - 3
+        - vds
+    is_primitive: true
+  VG:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - -100
+      - -220
+      - R0
+    bbox:
+      - -222
+      - -284
+      - -6
+      - -216
+    connections:
+      MINUS: vsdc
+      PLUS: vgdc
+    params:
+      vdc:
+        - 3
+        - vgs
+    is_primitive: true
+  VS:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - 340
+      - -220
+      - R0
+    bbox:
+      - 218
+      - -284
+      - 434
+      - -216
+    connections:
+      MINUS: vb
+      PLUS: vsdc
+    params:
+      vdc:
+        - 3
+        - -vbs
+    is_primitive: true
+  XDUT:
+    lib_name: xbase
+    cell_name: mos_char
+    view_name: symbol
+    xform:
+      - -180
+      - 10
+      - R0
+    bbox:
+      - -256
+      - 6
+      - 18
+      - 111
+    connections:
+      b: vb
+      d: vd
+      g: vg
+      s: vs
+    params:
+      {}
+    is_primitive: false
+props:
+  connectivityLastUpdated:
+    - 0
+    - 3921
+  instance#:
+    - 0
+    - 5
+  lastSchematicExtraction:
+    - 4
+    - time_val: 1609971797
+  net#:
+    - 0
+    - 7
+  schGeometryLastUpdated:
+    - 0
+    - 3921
+  schGeometryVersion:
+    - 3
+    - sch.ds.gm.1.4
+  schXtrVersion:
+    - 3
+    - sch.10.0
+app_defs:
+  _dbLastSavedCounter:
+    - 0
+    - 3921
+  _dbvCvTimeStamp:
+    - 0
+    - 3921
+  cdbRevision:
+    - 0
+    - 227612
