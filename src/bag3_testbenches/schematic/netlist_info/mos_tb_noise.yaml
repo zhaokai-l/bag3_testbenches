@@ -1,0 +1,641 @@
+lib_name: bag3_testbenches
+cell_name: mos_tb_noise
+view_name: schematic
+bbox:
+  - -342
+  - -420
+  - 144
+  - 120
+terminals:
+  {}
+shapes:
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vg
+      points:
+        -
+          - -220
+          - -130
+        -
+          - -220
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vg
+      origin:
+        - -227
+        - -126
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vg
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - -220
+          - -220
+        -
+          - -220
+          - -190
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 0
+          - -40
+        -
+          - 0
+          - 0
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - -7
+        - -4
+      alignment: 8
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vd
+      points:
+        -
+          - 0
+          - 80
+        -
+          - 0
+          - 120
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vd
+      origin:
+        - -7
+        - 84
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vd
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vb
+      points:
+        -
+          - 20
+          - 40
+        -
+          - 60
+          - 40
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vb
+      origin:
+        - 24
+        - 47
+      alignment: 2
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vb
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vg
+      points:
+        -
+          - -100
+          - 40
+        -
+          - -60
+          - 40
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vg
+      origin:
+        - -64
+        - 47
+      alignment: 8
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vg
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - -227
+        - -210
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vd
+      points:
+        -
+          - -140
+          - -130
+        -
+          - -140
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vd
+      origin:
+        - -147
+        - -126
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vd
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - -140
+          - -220
+        -
+          - -140
+          - -190
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - -147
+        - -210
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - -40
+          - -130
+        -
+          - -40
+          - -100
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - -47
+        - -126
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vb
+      points:
+        -
+          - -40
+          - -220
+        -
+          - -40
+          - -190
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vb
+      origin:
+        - -47
+        - -210
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vb
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vb
+      points:
+        -
+          - -220
+          - -290
+        -
+          - -220
+          - -260
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vb
+      origin:
+        - -227
+        - -286
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vb
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: gnd!
+      points:
+        -
+          - -220
+          - -380
+        -
+          - -220
+          - -350
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: ibias
+      origin:
+        - 43
+        - -120
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: ibias
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: ibias
+      points:
+        -
+          - 50
+          - -280
+        -
+          - 50
+          - -260
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: ibias
+      origin:
+        - 43
+        - -270
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: ibias
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: ibias
+      points:
+        -
+          - 50
+          - -130
+        -
+          - 50
+          - -110
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 50
+          - -210
+        -
+          - 50
+          - -190
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - 43
+        - -200
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: vs
+      points:
+        -
+          - 50
+          - -360
+        -
+          - 50
+          - -340
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: vs
+      origin:
+        - 43
+        - -350
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vs
+instances:
+  I3:
+    lib_name: analogLib
+    cell_name: gnd
+    view_name: symbol
+    xform:
+      - -220
+      - -380
+      - R0
+    bbox:
+      - -230
+      - -420
+      - -146
+      - -376
+    connections:
+      gnd!: gnd!
+    params:
+      {}
+    is_primitive: true
+  IBIAS:
+    lib_name: analogLib
+    cell_name: idc
+    view_name: symbol
+    xform:
+      - 50
+      - -280
+      - R0
+    bbox:
+      - -67
+      - -344
+      - 144
+      - -276
+    connections:
+      MINUS: vs
+      PLUS: ibias
+    params:
+      idc:
+        - 3
+        - ibias
+    is_primitive: true
+  VB:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - -220
+      - -290
+      - R0
+    bbox:
+      - -342
+      - -354
+      - -126
+      - -286
+    connections:
+      MINUS: gnd!
+      PLUS: vb
+    params:
+      vdc:
+        - 3
+        - vb_dc
+    is_primitive: true
+  VBIAS:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - 50
+      - -130
+      - R0
+    bbox:
+      - -72
+      - -194
+      - 144
+      - -126
+    connections:
+      MINUS: vs
+      PLUS: ibias
+    params:
+      vdc:
+        - 3
+        - 1
+    is_primitive: true
+  VD:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - -140
+      - -130
+      - R0
+    bbox:
+      - -262
+      - -194
+      - -46
+      - -126
+    connections:
+      MINUS: vs
+      PLUS: vd
+    params:
+      vdc:
+        - 3
+        - vds
+    is_primitive: true
+  VG:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - -220
+      - -130
+      - R0
+    bbox:
+      - -342
+      - -194
+      - -126
+      - -126
+    connections:
+      MINUS: vs
+      PLUS: vg
+    params:
+      vdc:
+        - 3
+        - vgs
+    is_primitive: true
+  VS:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - -40
+      - -130
+      - R0
+    bbox:
+      - -162
+      - -194
+      - 54
+      - -126
+    connections:
+      MINUS: vb
+      PLUS: vs
+    params:
+      vdc:
+        - 3
+        - -vbs
+    is_primitive: true
+  XDUT:
+    lib_name: xbase
+    cell_name: mos_char
+    view_name: symbol
+    xform:
+      - -60
+      - 0
+      - R0
+    bbox:
+      - -136
+      - -4
+      - 138
+      - 101
+    connections:
+      b: vb
+      d: vd
+      g: vg
+      s: vs
+    params:
+      {}
+    is_primitive: false
+props:
+  connectivityLastUpdated:
+    - 0
+    - 2991
+  instance#:
+    - 0
+    - 4
+  lastSchematicExtraction:
+    - 4
+    - time_val: 1609971781
+  net#:
+    - 0
+    - 1
+  schGeometryLastUpdated:
+    - 0
+    - 2991
+  schGeometryVersion:
+    - 3
+    - sch.ds.gm.1.4
+  schXtrVersion:
+    - 3
+    - sch.10.0
+app_defs:
+  _dbLastSavedCounter:
+    - 0
+    - 2991
+  _dbvCvTimeStamp:
+    - 0
+    - 2991
+  cdbRevision:
+    - 0
+    - 227612
