@@ -22,6 +22,7 @@ from bag.simulation.core import TestbenchManager
 from bag.simulation.data import SimNetlistInfo, netlist_info_from_dict
 
 from ...schematic.digital_tb_tran import bag3_testbenches__digital_tb_tran
+from ...schematic.analog_tb_tran import bag3_testbenches__analog_tb_tran
 
 
 class TranTB(TestbenchManager, abc.ABC):
@@ -104,3 +105,13 @@ class TranTB(TestbenchManager, abc.ABC):
         sim_setup = self.get_netlist_info_dict()
         sim_setup['analyses'] = [tran_dict]
         return netlist_info_from_dict(sim_setup)
+
+
+class AnaTranTB(TranTB):
+    def __init__(self, *args: Any, **kwargs: Any) -> None:
+        super().__init__(*args, **kwargs)
+
+    @classmethod
+    def get_schematic_class(cls) -> Type[Module]:
+        return bag3_testbenches__analog_tb_tran
+
