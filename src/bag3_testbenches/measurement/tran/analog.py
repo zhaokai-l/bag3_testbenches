@@ -117,7 +117,7 @@ class AnalogTranTB(AnaTranTB):
             pin: str = params['pin']
             value: Union[float, str] = params['value']
             dev_type: str = params['type']
-            gnd_name = self.get_pin_supplies(pin, pwr_domain)[1]
+            gnd_name = self.get_pin_supplies(pin, pwr_domain)[0]
             gnd_name = params.get('gnd', gnd_name)
             src_load_list.append(dict(type=dev_type, lib='analogLib', value=value,
                                       conns=dict(PLUS=pin, MINUS=gnd_name)))
