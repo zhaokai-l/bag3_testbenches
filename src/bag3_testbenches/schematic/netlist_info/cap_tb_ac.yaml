@@ -1,0 +1,638 @@
+lib_name: bag3_testbenches
+cell_name: cap_tb_ac
+view_name: schematic
+bbox:
+  - -360
+  - -260
+  - 514
+  - 114
+terminals:
+  VSS:
+    obj:
+      - 1
+      - inst:
+          lib_name: basic
+          cell_name: iopin
+          view_name: symbolr
+          xform:
+            - -290
+            - 40
+            - R0
+          bbox:
+            - -351
+            - 14
+            - -280
+            - 50
+          connections:
+            {}
+          params:
+            {}
+          is_primitive: true
+        attr:
+          layer: 229
+          purpose: 237
+          net: ""
+          origin:
+            - -315
+            - 40
+          alignment: 7
+          orient: R0
+          font: 5
+          height: 10
+          overbar: false
+          visible: true
+          drafting: true
+          attr_type: 0
+          format: 1
+    stype: 2
+    ttype: 2
+  minus:
+    obj:
+      - 1
+      - inst:
+          lib_name: basic
+          cell_name: iopin
+          view_name: symbolr
+          xform:
+            - -290
+            - 70
+            - R0
+          bbox:
+            - -351
+            - 44
+            - -280
+            - 80
+          connections:
+            {}
+          params:
+            {}
+          is_primitive: true
+        attr:
+          layer: 229
+          purpose: 237
+          net: ""
+          origin:
+            - -315
+            - 70
+          alignment: 7
+          orient: R0
+          font: 5
+          height: 10
+          overbar: false
+          visible: true
+          drafting: true
+          attr_type: 0
+          format: 1
+    stype: 0
+    ttype: 2
+  plus:
+    obj:
+      - 1
+      - inst:
+          lib_name: basic
+          cell_name: iopin
+          view_name: symbolr
+          xform:
+            - -290
+            - 100
+            - R0
+          bbox:
+            - -351
+            - 74
+            - -280
+            - 110
+          connections:
+            {}
+          params:
+            {}
+          is_primitive: true
+        attr:
+          layer: 229
+          purpose: 237
+          net: ""
+          origin:
+            - -315
+            - 100
+          alignment: 7
+          orient: R0
+          font: 5
+          height: 10
+          overbar: false
+          visible: true
+          drafting: true
+          attr_type: 0
+          format: 1
+    stype: 0
+    ttype: 2
+shapes:
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: minus
+      points:
+        -
+          - 80
+          - 0
+        -
+          - 120
+          - 0
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: minus
+      origin:
+        - 84
+        - 7
+      alignment: 2
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: minus
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: plus
+      points:
+        -
+          - -140
+          - 0
+        -
+          - -100
+          - 0
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: plus
+      origin:
+        - -104
+        - 7
+      alignment: 8
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: plus
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: gnd!
+      points:
+        -
+          - -80
+          - -220
+        -
+          - -80
+          - -190
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: VSS
+      points:
+        -
+          - -80
+          - -130
+        -
+          - -80
+          - -100
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: plus
+      points:
+        -
+          - 140
+          - -130
+        -
+          - 140
+          - -90
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: plus
+      origin:
+        - 133
+        - -126
+      alignment: 2
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: plus
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: minus
+      points:
+        -
+          - 140
+          - -230
+        -
+          - 140
+          - -190
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: minus
+      origin:
+        - 133
+        - -194
+      alignment: 8
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: minus
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: plus
+      points:
+        -
+          - 300
+          - 0
+        -
+          - 300
+          - 20
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: plus
+      points:
+        -
+          - 300
+          - 20
+        -
+          - 330
+          - 20
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: minus
+      points:
+        -
+          - 390
+          - 20
+        -
+          - 420
+          - 20
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: minus
+      points:
+        -
+          - 420
+          - 0
+        -
+          - 420
+          - 20
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: VSS
+      points:
+        -
+          - 300
+          - -90
+        -
+          - 300
+          - -60
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: VSS
+      points:
+        -
+          - 420
+          - -90
+        -
+          - 420
+          - -60
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: VSS
+      origin:
+        - 293
+        - -90
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: VSS
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: VSS
+      origin:
+        - 413
+        - -80
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: VSS
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: plus
+      origin:
+        - 310
+        - 27
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: plus
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: minus
+      origin:
+        - 410
+        - 27
+      alignment: 5
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: minus
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: VSS
+      origin:
+        - -87
+        - -110
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: VSS
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: gnd!
+      origin:
+        - -87
+        - -200
+      alignment: 5
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: gnd!
+  -
+    - 5
+    - layer: 228
+      purpose: 4294967295
+      net: VSS
+      points:
+        -
+          - -10
+          - -100
+        -
+          - -10
+          - -60
+  -
+    - 7
+    - layer: 228
+      purpose: 237
+      net: VSS
+      origin:
+        - -17
+        - -64
+      alignment: 8
+      orient: R90
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: VSS
+instances:
+  Cc:
+    lib_name: analogLib
+    cell_name: cap
+    view_name: symbol
+    xform:
+      - 330
+      - 20
+      - R90
+    bbox:
+      - 326
+      - -102
+      - 394
+      - 114
+    connections:
+      MINUS: minus
+      PLUS: plus
+    params:
+      c:
+        - 3
+        - cc
+    is_primitive: true
+  Cpm:
+    lib_name: analogLib
+    cell_name: cap
+    view_name: symbol
+    xform:
+      - 420
+      - 0
+      - R0
+    bbox:
+      - 298
+      - -64
+      - 514
+      - 4
+    connections:
+      MINUS: VSS
+      PLUS: minus
+    params:
+      c:
+        - 3
+        - cpm
+    is_primitive: true
+  Cpp:
+    lib_name: analogLib
+    cell_name: cap
+    view_name: symbol
+    xform:
+      - 300
+      - 0
+      - R0
+    bbox:
+      - 178
+      - -64
+      - 394
+      - 4
+    connections:
+      MINUS: VSS
+      PLUS: plus
+    params:
+      c:
+        - 3
+        - cpp
+    is_primitive: true
+  IAC:
+    lib_name: analogLib
+    cell_name: idc
+    view_name: symbol
+    xform:
+      - 140
+      - -130
+      - R0
+    bbox:
+      - 23
+      - -194
+      - 234
+      - -126
+    connections:
+      MINUS: minus
+      PLUS: plus
+    params:
+      acm:
+        - 3
+        - 1
+    is_primitive: true
+  VDC:
+    lib_name: analogLib
+    cell_name: vdc
+    view_name: symbol
+    xform:
+      - -80
+      - -130
+      - R0
+    bbox:
+      - -202
+      - -194
+      - 14
+      - -126
+    connections:
+      MINUS: gnd!
+      PLUS: VSS
+    params:
+      vdc:
+        - 3
+        - 0
+    is_primitive: true
+  X1:
+    lib_name: analogLib
+    cell_name: gnd
+    view_name: symbol
+    xform:
+      - -80
+      - -220
+      - R0
+    bbox:
+      - -90
+      - -260
+      - -6
+      - -216
+    connections:
+      gnd!: gnd!
+    params:
+      {}
+    is_primitive: true
+  XCAP:
+    lib_name: xbase
+    cell_name: momcap_char
+    view_name: symbol
+    xform:
+      - -100
+      - -60
+      - R0
+    bbox:
+      - -104
+      - -75
+      - 84
+      - 60
+    connections:
+      VSS: VSS
+      minus: minus
+      plus: plus
+    params:
+      {}
+    is_primitive: false
+props:
+  connectivityLastUpdated:
+    - 0
+    - 1136
+  instance#:
+    - 0
+    - 2
+  lastSchematicExtraction:
+    - 4
+    - time_val: 1612160103
+  net#:
+    - 0
+    - 2
+  pin#:
+    - 0
+    - 3
+  schGeometryLastUpdated:
+    - 0
+    - 1136
+  schGeometryVersion:
+    - 3
+    - sch.ds.gm.1.4
+  schXtrVersion:
+    - 3
+    - sch.10.0
+app_defs:
+  _dbLastSavedCounter:
+    - 0
+    - 1136
+  _dbvCvTimeStamp:
+    - 0
+    - 1136
+  cdbRevision:
+    - 0
+    - 227612
